@@ -1392,7 +1392,7 @@ a {
 .cid-tJS9pBcTSa {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  background-image: url("../../../assets/images/alps-wallpaper-2000x1125.webp");
+  background-image: url("../../../assets/images/alps-wallpaper-2000x1125.jpg");
 }
 .cid-tJS9pBcTSa .mbr-overlay {
   background-color: #ffffff;
@@ -1478,20 +1478,6 @@ a {
 }
 .cid-tJS9NNcTLZ .mbr-section-title {
   color: #ffffff;
-}
-.cid-uhfzAR3QKI {
-  padding-top: 7rem;
-  padding-bottom: 3rem;
-  background-color: #ffffff;
-}
-.cid-uhfzAR3QKI .mbr-text {
-  color: #000000;
-}
-.cid-uhfzAR3QKI .mbr-section-subtitle {
-  color: #000000;
-}
-.cid-uhfzAR3QKI .mbr-section-title {
-  color: #000000;
 }
 .cid-uhf4Rhhn7n {
   z-index: 1000;
@@ -2061,6 +2047,20 @@ a {
   .cid-uhf4Rhhn7n .navbar-collapse {
     padding: 1rem;
   }
+}
+.cid-uhfzAR3QKI {
+  padding-top: 7rem;
+  padding-bottom: 3rem;
+  background-color: #ffffff;
+}
+.cid-uhfzAR3QKI .mbr-text {
+  color: #000000;
+}
+.cid-uhfzAR3QKI .mbr-section-subtitle {
+  color: #000000;
+}
+.cid-uhfzAR3QKI .mbr-section-title {
+  color: #000000;
 }
 .cid-tJS9NNcTLZ {
   padding-top: 2rem;
