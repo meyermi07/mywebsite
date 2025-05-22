@@ -14,12 +14,12 @@
             justify-content: center;
             align-items: center;
             background-color: #181818;
-            color: #d0d0d0;
+            color: #e0e0e0; /* Brighter gray for better contrast */
             font-family: 'Open Sans', Arial, sans-serif;
             text-align: center;
         }
         .container {
-            max-width: 700px;
+            max-width: 600px;
             padding: 20px;
         }
         h1 {
@@ -28,38 +28,64 @@
             letter-spacing: 0.1em;
             font-weight: 400;
             text-transform: uppercase;
+            display: inline-block;
         }
-        hr {
+        hr.name-line {
             border: 0;
-            height: 1px;
-            background: #d0d0d0; /* Matches lighter gray text */
-            width: 30%;
+            height: 1.5px; /* Slightly thicker for prominence */
+            background: #e0e0e0;
+            width: 100%;
             margin: 0 auto 1.5em;
         }
+        hr.section-line {
+            border: 0;
+            height: 1px;
+            background: #e0e0e0;
+            width: 30%;
+            margin: 1em auto;
+        }
         p {
-            font-size: 1.1em;
-            line-height: 2.2;
+            font-size: 1em;
+            line-height: 2.5;
             margin-bottom: 2em;
             letter-spacing: 0.05em;
             font-weight: 300;
-            max-width: 500px;
+            max-width: 600px;
             margin-left: auto;
             margin-right: auto;
+        }
+        .contact-link a {
+            color: #e0e0e0;
+            text-decoration: none;
+            font-size: 1em;
+            letter-spacing: 0.05em;
+        }
+        .contact-link a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Michael J. Meyer</h1>
-        <hr>
+        <hr class="name-line">
         <p>
-            <h3>General Motors</h3>
-            Senior Design Release Engineer<br>
-            <h3>United States Army</h3>
-            Operation Enduring Freedom<br>
-            Operation Iraqi Freedom<br>
-            AH-64D Apache Longbow Pilot<br>
-            United States Military Academy Class of 2007<br>
+            Senior Design Release Engineer, Vehicle Closures<br>
+            General Motors Company
+        </p>
+        <hr class="section-line">
+        <p>
+            Veteran, Operations Enduring Freedom & Iraqi Freedom<br>
+            United States Army
+        </p>
+        <hr class="section-line">
+        <p>
+            MBA Candidate, Kelley School of Business, Indiana University<br>
+            BS, Mechanical Engineering, United States Military Academy
+        </p>
+        <hr class="section-line">
+        <p class="contact-link">
+            <a href="mailto:meyermi07@gmail.com">Contact</a>
         </p>
     </div>
 </body>
