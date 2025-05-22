@@ -63,6 +63,27 @@
         .contact-link a:hover {
             text-decoration: underline;
         }
+        .social-links {
+            margin-top: 1em;
+            display: flex;
+            justify-content: center;
+            gap: 20px; /* Spacing between icons */
+        }
+        .social-links a {
+            display: inline-block;
+            background-color: #181818; /* Matches page background */
+            padding: 8px; /* Creates background block around icon */
+            border-radius: 4px; /* Subtle rounding for polish */
+        }
+        .social-links img {
+            width: 48px; /* Larger icons */
+            height: 48px;
+            filter: invert(100%); /* Makes icons white to match text */
+            transition: opacity 0.3s;
+        }
+        .social-links img:hover {
+            opacity: 0.7;
+        }
     </style>
 </head>
 <body>
@@ -70,13 +91,13 @@
         <h1>Michael J. Meyer</h1>
         <hr class="name-line">
         <p>
-            Senior Design Release Engineer, Vehicle Closures<br>
-            General Motors Company
+            General Motors Company<br>
+            Senior Design Release Engineer, Vehicle Closures
         </p>
         <hr class="section-line">
         <p>
-            Veteran, Operations Enduring Freedom & Iraqi Freedom<br>
-            United States Army
+            United States Army<br>
+            Veteran, Operations Enduring Freedom & Iraqi Freedom
         </p>
         <hr class="section-line">
         <p>
@@ -87,6 +108,14 @@
         <p class="contact-link">
             <a href="mailto:meyermi07@gmail.com">Contact</a>
         </p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/meyermi07" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn Profile">
+            </a>
+            <a href="https://x.com/meyermi07" target="_blank">
+                <img src="https://abs.twimg.com/favicons/twitter.3.ico" alt="X Profile">
+            </a>
+        </div>
     </div>
 </body>
 </html>
