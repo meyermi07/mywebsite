@@ -1,1 +1,1 @@
-THIS IS JUST A PROJECT FOLDER FOR MY PUBLIC WEBSITE.
+Project folder for my public website
